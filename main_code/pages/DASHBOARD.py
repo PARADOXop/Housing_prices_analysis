@@ -4,7 +4,7 @@ import plotly.express as px
 import pandas as pd
 
 st.set_page_config(page_title="Plotting Charts", page_icon="📈", layout="wide")
-st.button("Re-run")
+
 
 # ---------------- Data loader
 @st.cache_data
