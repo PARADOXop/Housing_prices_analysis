@@ -11,7 +11,7 @@ st.button("Re-run")
 def load_dataset(path):
     return pd.read_csv(path)
 
-path = '../dataset/cleaned_housing.csv'
+path = './dataset/cleaned_housing.csv'
 df = load_dataset(path)
 dff = df.copy()
 
