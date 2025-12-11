@@ -16,7 +16,7 @@ df = load_dataset(path)
 dff = df.copy()
 
 # ---------------- Sidebar filters
-st.sidebar.markdown("### Filters (charts)")
+st.sidebar.markdown("### Filters (slicers)")
 
 # map column names to variables (your dataset column names)
 park_avail, amenity_lvl, prop_age, price_col, size, psqft_col, loc_col, city_col, property_col, bhk_col, furn_col = [
